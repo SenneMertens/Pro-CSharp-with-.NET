@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Since the release of C# 10, every new project default to enabling nullable reference types. The default setting of enabled sets nullable anotations (?) to enabled and nullable warnings to enabled. -->
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
